@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T11:27:31.046Z",
+  "updatedAt": "2026-06-12T11:27:59.209Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -93,6 +93,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/d6ddf5e5-c9ac-44b7-8664-4cccb47ea042.webp",
       "createdAt": "2026-06-12T11:27:29.584Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "e47feceb-044b-4659-95b3-46cbef2e4daf",
+      "title": "Bauhaus",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/e47feceb-044b-4659-95b3-46cbef2e4daf.webp",
+      "createdAt": "2026-06-12T11:27:57.385Z",
       "isVisible": true,
       "votes": []
     }
