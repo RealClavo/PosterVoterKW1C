@@ -1,0 +1,13 @@
+{
+  "name": "postervoter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python -m http.server 5500",
+    "test": "npm run test:frontend && npm run test:worker",
+    "test:frontend": "node scripts/check-frontend.mjs",
+    "test:worker": "npm --prefix worker test",
+    "check:secrets": "node scripts/check-frontend.mjs --secrets-only"
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Lege poster">
+  <rect width="240" height="180" rx="8" fill="#eef5ff"/>
+  <path d="M56 32h96l32 30v86H56V32Z" fill="#fff" stroke="#b8c7d9" stroke-width="3"/>
+  <path d="M152 32v32h32" fill="none" stroke="#b8c7d9" stroke-width="3"/>
+  <path d="M78 88h84M78 110h58" stroke="#0057b8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M177 128h15v15h15v14h-15v15h-15v-15h-15v-14h15v-15Z" fill="#e63946"/>
+</svg>

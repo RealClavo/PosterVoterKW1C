@@ -1,0 +1,14 @@
+node_modules/
+worker/node_modules/
+worker/.dev.vars
+worker/.env
+worker/.env.*
+.env
+.env.*
+.wrangler/
+worker/.wrangler/
+.DS_Store
+Thumbs.db
+coverage/
+dist/
+*.log
