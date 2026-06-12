@@ -510,7 +510,7 @@ textarea {
     cursor: grab;
 }
 
-.lightbox-zoom-stage[data-zoomed="true"]:active {
+.lightbox-zoom-stage[data-dragging="true"] {
     cursor: grabbing;
 }
 
@@ -521,6 +521,11 @@ textarea {
     transform-origin: center center;
     transition: transform 120ms ease-out;
     user-select: none;
+    -webkit-user-drag: none;
+}
+
+.lightbox-zoom-stage[data-dragging="true"] .lightbox-image {
+    transition: none;
 }
 
 .lightbox-controls {

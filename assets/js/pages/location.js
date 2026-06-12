@@ -106,12 +106,22 @@ function openPreviewModal(poster) {
 
     const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
 
-    const clampPan = () => {
-        const maxX = (zoomStage.clientWidth * (zoomState.scale - MIN_LIGHTBOX_ZOOM)) / 2;
-        const maxY = (zoomStage.clientHeight * (zoomState.scale - MIN_LIGHTBOX_ZOOM)) / 2;
+    const getPanBounds = () => {
+        const scaledImageWidth = image.clientWidth * zoomState.scale;
+        const scaledImageHeight = image.clientHeight * zoomState.scale;
 
-        zoomState.x = clamp(zoomState.x, -maxX, maxX);
-        zoomState.y = clamp(zoomState.y, -maxY, maxY);
+        return {
+            x: Math.max(0, (scaledImageWidth - zoomStage.clientWidth) / 2),
+            y: Math.max(0, (scaledImageHeight - zoomStage.clientHeight) / 2)
+        };
+    };
+
+    const clampPan = () => {
+        const bounds = getPanBounds();
+
+        // De sleepgrens is gebaseerd op de echte afbeeldingsgrootte, zodat je ook ingezoomde hoeken kunt bereiken.
+        zoomState.x = clamp(zoomState.x, -bounds.x, bounds.x);
+        zoomState.y = clamp(zoomState.y, -bounds.y, bounds.y);
     };
 
     const applyZoom = () => {
@@ -131,6 +141,7 @@ function openPreviewModal(poster) {
     image.className = "lightbox-image";
     image.src = poster.imageUrl;
     image.alt = `Poster ${poster.title} van ${poster.creatorName}`;
+    image.draggable = false;
     resetButton.className = "button button-outline";
     resetButton.type = "button";
     resetButton.textContent = "Reset zoom";
@@ -169,11 +180,13 @@ function openPreviewModal(poster) {
         }
 
         // Slepen werkt alleen als er is ingezoomd; anders blijft de poster rustig op zijn plek.
+        event.preventDefault();
         zoomState.isDragging = true;
         zoomState.startX = event.clientX;
         zoomState.startY = event.clientY;
         zoomState.originX = zoomState.x;
         zoomState.originY = zoomState.y;
+        zoomStage.dataset.dragging = "true";
         zoomStage.setPointerCapture(event.pointerId);
     });
 
@@ -187,12 +200,22 @@ function openPreviewModal(poster) {
         applyZoom();
     });
 
-    zoomStage.addEventListener("pointerup", () => {
+    zoomStage.addEventListener("pointerup", (event) => {
         zoomState.isDragging = false;
+        zoomStage.dataset.dragging = "false";
+
+        if (zoomStage.hasPointerCapture(event.pointerId)) {
+            zoomStage.releasePointerCapture(event.pointerId);
+        }
     });
 
-    zoomStage.addEventListener("pointercancel", () => {
+    zoomStage.addEventListener("pointercancel", (event) => {
         zoomState.isDragging = false;
+        zoomStage.dataset.dragging = "false";
+
+        if (zoomStage.hasPointerCapture(event.pointerId)) {
+            zoomStage.releasePointerCapture(event.pointerId);
+        }
     });
 
     resetButton.addEventListener("click", () => {
