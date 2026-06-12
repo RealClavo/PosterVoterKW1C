@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "postervoter-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-12",
+  "vars": {
+    "GITHUB_OWNER": "RealClavo",
+    "GITHUB_REPO": "PosterVoterKW1C",
+    "GITHUB_BRANCH": "main",
+    "DATABASE_PATH": "data/posters.json",
+    "UPLOADS_PATH": "assets/uploads",
+    "ALLOWED_ORIGINS": "https://realclavo.github.io,http://localhost:5500,http://127.0.0.1:5500"
+  }
+}
