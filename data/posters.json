@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T13:09:19.765Z",
+  "updatedAt": "2026-06-12T13:19:06.464Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -213,6 +213,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/ad6f77e4-d9d9-4c83-a575-459cd6da9a3a.webp",
       "createdAt": "2026-06-12T13:09:13.995Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "a44161aa-da70-44a0-90f9-ccc65cfbd48f",
+      "title": "Focus",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/a44161aa-da70-44a0-90f9-ccc65cfbd48f.webp",
+      "createdAt": "2026-06-12T13:18:59.631Z",
       "isVisible": true,
       "votes": []
     }
