@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T13:19:06.464Z",
+  "updatedAt": "2026-06-12T13:19:41.167Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -223,6 +223,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/a44161aa-da70-44a0-90f9-ccc65cfbd48f.webp",
       "createdAt": "2026-06-12T13:18:59.631Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "86bd67b9-d59f-4fd9-9f97-23a60b695d01",
+      "title": "Bosch",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/86bd67b9-d59f-4fd9-9f97-23a60b695d01.webp",
+      "createdAt": "2026-06-12T13:19:39.781Z",
       "isVisible": true,
       "votes": []
     }
