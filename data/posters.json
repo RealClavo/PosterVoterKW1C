@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T10:26:04.608Z",
+  "updatedAt": "2026-06-12T10:28:02.719Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -18,6 +18,16 @@
           "createdAt": "2026-06-12T10:26:04.608Z"
         }
       ]
+    },
+    {
+      "id": "d5614215-b241-4b91-8d07-c4d09df57e7c",
+      "title": "Van Gogh Classroom",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/d5614215-b241-4b91-8d07-c4d09df57e7c.webp",
+      "createdAt": "2026-06-12T10:27:59.997Z",
+      "isVisible": true,
+      "votes": []
     }
   ]
 }
