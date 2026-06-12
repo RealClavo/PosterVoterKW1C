@@ -121,6 +121,7 @@ export async function getBranchHead(env) {
 }
 
 export async function readFileAtCommit(env, commitSha, path) {
+    // We lezen de JSON vanaf een exacte commit. Daardoor werkt de latere write met optimistic concurrency.
     const commit = await githubRequest(env, `/git/commits/${commitSha}`);
     const tree = await githubRequest(env, `/git/trees/${commit.tree.sha}?recursive=1`);
 

@@ -87,6 +87,7 @@ export async function createPoster(request, env) {
 
     const imageBuffer = await validateWebpFile(form.get("image"));
     const posterId = crypto.randomUUID();
+    // Het bestandspad komt volledig van de server. Gebruikersnamen, titels en originele bestandsnamen worden nooit padnamen.
     const imagePath = `${getUploadsPath(env)}/${posterId}.webp`;
     const imageBase64 = arrayBufferToBase64(imageBuffer);
     const now = new Date().toISOString();

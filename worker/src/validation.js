@@ -78,6 +78,7 @@ export function validateSearchTerm(value) {
 }
 
 export function assertDatabaseIsValid(database) {
+    // De Worker schrijft nooit door als de JSON-structuur niet klopt. Zo voorkomen we dat corrupte data wordt overschreven.
     const posterIds = new Set();
 
     if (!database || typeof database !== "object" || Array.isArray(database)) {

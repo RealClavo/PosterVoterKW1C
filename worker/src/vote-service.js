@@ -28,6 +28,7 @@ export async function addVoteToDatabase(database, input, env, now = new Date().t
 
     const voterHash = await createVoterHash(env, posterId, browserId);
 
+    // Dubbele stemmen worden per poster gecontroleerd met de hash, niet met de naam van de stemmer.
     if (poster.votes.some((vote) => vote.voterHash === voterHash)) {
         throw new AppError(409, "ALREADY_VOTED", "Je hebt al op deze poster gestemd.");
     }

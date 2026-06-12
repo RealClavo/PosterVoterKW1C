@@ -32,6 +32,7 @@ async function readDatabaseFromHead(env, head) {
 }
 
 export async function commitFilesAtomically(env, buildChange, options) {
+    // Elke poging leest eerst de nieuwste main-head en bouwt daar een nieuwe commit bovenop.
     const maxAttempts = options.maxAttempts ?? 5;
     let lastConflict = null;
 
@@ -45,6 +46,7 @@ export async function commitFilesAtomically(env, buildChange, options) {
             nextDatabase.updatedAt = new Date().toISOString();
             assertDatabaseIsValid(nextDatabase);
 
+            // Uploads en JSON-wijzigingen gaan samen in een tree, dus een posterbestand en database-update zijn atomair.
             const files = [
                 {
                     path: getDatabasePath(env),
@@ -82,6 +84,7 @@ export async function commitFilesAtomically(env, buildChange, options) {
             lastConflict = error;
 
             if (attempt < maxAttempts) {
+                // Bij gelijktijdige stemmen wachten we kort en proberen we opnieuw met de nieuwste database.
                 await sleep(80 + Math.floor(Math.random() * 180));
             }
         }

@@ -23,6 +23,7 @@ export function assertBodyLimit(request, maxBytes) {
 }
 
 export function assertCooldown(request, action) {
+    // Best-effort cooldown in geheugen. Dit helpt tegen spam, maar is geen permanente database.
     const now = Date.now();
     const limit = action === "upload" ? 3 : 10;
     const windowMs = action === "upload" ? 60 * 60 * 1000 : 60 * 1000;
@@ -46,6 +47,7 @@ export async function createVoterHash(env, posterId, browserId) {
     }
 
     const encoder = new TextEncoder();
+    // De ruwe browser-ID wordt niet opgeslagen. Alleen deze HMAC-hash komt in data/posters.json terecht.
     const key = await crypto.subtle.importKey(
         "raw",
         encoder.encode(env.VOTER_HASH_SECRET),

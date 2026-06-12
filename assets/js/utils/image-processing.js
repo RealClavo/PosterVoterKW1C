@@ -66,17 +66,20 @@ function drawToCanvas(source, size) {
 }
 
 export async function processImageFile(file) {
+    // De browser tekent de afbeelding opnieuw op canvas. Daardoor blijft de verhouding gelijk en verdwijnt metadata.
     const image = await decodeImage(file);
     let size = getScaledSize(image.width, image.height, MAX_EDGE);
     let canvas = drawToCanvas(image, size);
     let quality = 0.85;
     let blob = await canvasToBlob(canvas, quality);
 
+    // Eerst proberen we de bestandsgrootte omlaag te krijgen door WebP-kwaliteit stap voor stap te verlagen.
     while (blob.size > TARGET_SIZE && quality > MIN_QUALITY) {
         quality = Math.max(MIN_QUALITY, quality - QUALITY_STEP);
         blob = await canvasToBlob(canvas, quality);
     }
 
+    // Als kwaliteit alleen niet genoeg is, schalen we de afbeelding voorzichtig kleiner zonder te vervormen.
     while (blob.size > TARGET_SIZE && Math.max(size.width, size.height) > 900) {
         size = {
             width: Math.round(size.width * 0.9),

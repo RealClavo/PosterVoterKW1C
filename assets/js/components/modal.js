@@ -69,6 +69,7 @@ export function openModal({ title, content, className = "" }) {
             return;
         }
 
+        // Focus trapping: Tab blijft binnen de modal, zodat toetsenbordgebruikers niet achter de popup komen.
         const firstElement = focusableElements[0];
         const lastElement = focusableElements[focusableElements.length - 1];
 

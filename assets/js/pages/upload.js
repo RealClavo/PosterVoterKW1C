@@ -164,6 +164,7 @@ form.addEventListener("submit", async (event) => {
     }
 
     const formData = new FormData();
+    // We sturen alleen het verwerkte WebP-bestand naar de Worker; de originele bestandsnaam gaat niet mee.
     formData.append("title", validation.title);
     formData.append("creatorName", validation.creatorName);
     formData.append("location", validation.location);

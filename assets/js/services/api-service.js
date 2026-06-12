@@ -31,6 +31,7 @@ async function safeJson(response) {
 }
 
 async function request(path, options = {}) {
+    // Alle API-calls lopen door deze functie, zodat time-outs en foutmeldingen overal hetzelfde werken.
     const controller = new AbortController();
     const timeoutId = window.setTimeout(() => {
         controller.abort();
