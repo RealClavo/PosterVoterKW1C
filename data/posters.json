@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T10:29:28.573Z",
+  "updatedAt": "2026-06-12T10:30:19.439Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -46,6 +46,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/b09309d2-33fb-4811-99dc-34d81a0d8547.webp",
       "createdAt": "2026-06-12T10:29:27.268Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "ba2bd0cf-8ef4-41a3-8470-05a14b357efc",
+      "title": "Future is computing",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/ba2bd0cf-8ef4-41a3-8470-05a14b357efc.webp",
+      "createdAt": "2026-06-12T10:30:18.019Z",
       "isVisible": true,
       "votes": []
     }
