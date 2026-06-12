@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T13:08:31.922Z",
+  "updatedAt": "2026-06-12T13:09:00.946Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -193,6 +193,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/9c478c23-97e6-457c-bc56-09003698b990.webp",
       "createdAt": "2026-06-12T13:08:30.510Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "82bef5a4-e5f4-4b33-b56a-1e3c820b8866",
+      "title": "Avondmaal",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/82bef5a4-e5f4-4b33-b56a-1e3c820b8866.webp",
+      "createdAt": "2026-06-12T13:08:59.586Z",
       "isVisible": true,
       "votes": []
     }
