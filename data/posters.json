@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T11:27:59.209Z",
+  "updatedAt": "2026-06-12T12:16:52.872Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -103,6 +103,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/e47feceb-044b-4659-95b3-46cbef2e4daf.webp",
       "createdAt": "2026-06-12T11:27:57.385Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "cdc7278d-b6c5-44f8-998e-a55491d60627",
+      "title": "PopArt",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/cdc7278d-b6c5-44f8-998e-a55491d60627.webp",
+      "createdAt": "2026-06-12T12:16:51.484Z",
       "isVisible": true,
       "votes": []
     }
