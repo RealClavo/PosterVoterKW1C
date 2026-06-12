@@ -1,5 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T00:00:00.000Z",
-  "posters": []
+  "updatedAt": "2026-06-12T10:25:34.391Z",
+  "posters": [
+    {
+      "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
+      "title": "Binary Mona Lisa",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/f5e128c3-cded-464c-b70f-3f1d3ce18282.webp",
+      "createdAt": "2026-06-12T10:25:32.889Z",
+      "isVisible": true,
+      "votes": []
+    }
+  ]
 }
