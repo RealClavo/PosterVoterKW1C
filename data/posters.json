@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T11:27:01.593Z",
+  "updatedAt": "2026-06-12T11:27:31.046Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -83,6 +83,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/fd4fa97a-a81d-4f8d-a7b5-04bfa55f41e2.webp",
       "createdAt": "2026-06-12T11:27:00.210Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "d6ddf5e5-c9ac-44b7-8664-4cccb47ea042",
+      "title": "Blueprint",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/d6ddf5e5-c9ac-44b7-8664-4cccb47ea042.webp",
+      "createdAt": "2026-06-12T11:27:29.584Z",
       "isVisible": true,
       "votes": []
     }
