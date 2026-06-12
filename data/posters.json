@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T12:27:57.273Z",
+  "updatedAt": "2026-06-12T13:04:23.105Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -133,6 +133,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/21961df5-cc68-4d05-a7c4-50cb9f1e61ba.webp",
       "createdAt": "2026-06-12T12:27:55.832Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "46e3e153-419e-4ad3-84b7-4df35b0df363",
+      "title": "Dali",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/46e3e153-419e-4ad3-84b7-4df35b0df363.webp",
+      "createdAt": "2026-06-12T13:04:21.782Z",
       "isVisible": true,
       "votes": []
     }
