@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T13:07:11.586Z",
+  "updatedAt": "2026-06-12T13:08:31.922Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -183,6 +183,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/06ef77e1-c47d-4c6c-b2bd-9287a68a7da0.webp",
       "createdAt": "2026-06-12T13:07:10.289Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "9c478c23-97e6-457c-bc56-09003698b990",
+      "title": "Potion Book",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/9c478c23-97e6-457c-bc56-09003698b990.webp",
+      "createdAt": "2026-06-12T13:08:30.510Z",
       "isVisible": true,
       "votes": []
     }
