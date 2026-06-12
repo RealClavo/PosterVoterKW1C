@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T13:04:38.498Z",
+  "updatedAt": "2026-06-12T13:05:20.336Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -153,6 +153,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/a9193549-b37c-487f-bc6c-eb6a163c4f9c.webp",
       "createdAt": "2026-06-12T13:04:37.214Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "97b9a3a3-86d0-4ec2-9251-81f41d973b57",
+      "title": "Japan",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/97b9a3a3-86d0-4ec2-9251-81f41d973b57.webp",
+      "createdAt": "2026-06-12T13:05:18.374Z",
       "isVisible": true,
       "votes": []
     }
