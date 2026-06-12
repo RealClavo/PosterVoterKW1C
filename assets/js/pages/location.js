@@ -136,6 +136,7 @@ function openPreviewModal(poster) {
         resetButton.disabled = zoomState.scale === MIN_LIGHTBOX_ZOOM;
     };
 
+    content.className = "lightbox-content";
     zoomStage.className = "lightbox-zoom-stage";
     controls.className = "lightbox-controls";
     image.className = "lightbox-image";
