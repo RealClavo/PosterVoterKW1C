@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-12T10:35:20.751Z",
+  "updatedAt": "2026-06-12T11:27:01.593Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -73,6 +73,16 @@
       "location": "veghel",
       "imagePath": "assets/uploads/c043e853-f93c-4f15-9f45-08e11f14d004.webp",
       "createdAt": "2026-06-12T10:31:39.818Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "fd4fa97a-a81d-4f8d-a7b5-04bfa55f41e2",
+      "title": "The Creation",
+      "creatorName": "Justus",
+      "location": "veghel",
+      "imagePath": "assets/uploads/fd4fa97a-a81d-4f8d-a7b5-04bfa55f41e2.webp",
+      "createdAt": "2026-06-12T11:27:00.210Z",
       "isVisible": true,
       "votes": []
     }
