@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy en gegevensopslag van PosterVoter.">
+    <title>Privacy | PosterVoter</title>
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/pages.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body data-page="privacy">
+    <a class="skip-link" href="#inhoud">Naar inhoud</a>
+    <header class="site-header" data-site-header>
+        <nav class="nav container" aria-label="Hoofdnavigatie">
+            <a class="brand" href="./index.html" aria-label="PosterVoter home">
+                <span class="brand-mark" aria-hidden="true">PV+</span>
+                <span class="brand-name">PosterVoter</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="nav-toggle-lines" aria-hidden="true"></span>
+                <span class="sr-only">Menu openen</span>
+            </button>
+            <ul class="nav-list" id="primary-navigation" data-nav-list>
+                <li><a href="./index.html" data-nav-link="home">Home</a></li>
+                <li><a href="./veghel.html" data-nav-link="veghel">Veghel</a></li>
+                <li><a href="./den-bosch.html" data-nav-link="den-bosch">Den Bosch</a></li>
+                <li><a class="nav-cta" href="./uploaden.html" data-nav-link="uploaden">Uploaden</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inhoud">
+        <section class="hero page-hero">
+            <div class="hero-pattern" aria-hidden="true"></div>
+            <div class="container">
+                <p class="eyebrow">Privacy</p>
+                <h1>Welke gegevens slaat PosterVoter op?</h1>
+                <p class="hero-text">PosterVoter gebruikt geen accounts. Alle centrale gegevens staan in een JSON-bestand en uploadmap binnen de GitHub-repository.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container prose">
+                <h2>Openbare opslag</h2>
+                <p>De website gebruikt <code>data/posters.json</code> als centrale bron van waarheid. Omdat de repository openbaar kan zijn, kunnen de postergegevens technisch zichtbaar zijn voor anderen.</p>
+
+                <h2>Bij stemmen</h2>
+                <p>Bij een stem wordt alleen de ingevulde voornaam of alias, het moment van stemmen en een gehashte browseridentifier opgeslagen. Gebruik geen achternaam, studentnummer, e-mailadres of telefoonnummer.</p>
+                <p>De browseridentifier wordt lokaal opgeslagen onder <code>postervoter_voter_id</code>. De ruwe waarde wordt nooit in GitHub opgeslagen. De Worker maakt per poster een HMAC-SHA-256-hash met een geheim dat alleen in Cloudflare staat.</p>
+
+                <h2>Bij uploaden</h2>
+                <p>Bij een posterupload worden titel, makernaam of alias, locatie en het verwerkte WebP-bestand opgeslagen. Gebruik alleen een alias als je niet wilt dat je volledige naam openbaar wordt opgeslagen.</p>
+
+                <h2>Wat wordt niet gevraagd?</h2>
+                <ul class="check-list">
+                    <li>Geen wachtwoorden.</li>
+                    <li>Geen e-mailadressen.</li>
+                    <li>Geen studentnummers.</li>
+                    <li>Geen telefoonnummer of geboortedatum.</li>
+                    <li>Geen accountregistratie.</li>
+                </ul>
+
+                <h2>Beperking dubbele stemmen</h2>
+                <p>PosterVoter beperkt stemmen per browser. Iemand kan door browsergegevens te verwijderen of een ander apparaat te gebruiken opnieuw stemmen. Dat is een bewuste beperking omdat er geen accounts of externe database worden gebruikt.</p>
+
+                <h2>Waar staan afbeeldingen?</h2>
+                <p>Geuploade posters worden opgeslagen als WebP-bestand in <code>assets/uploads/</code>. De bestandsnaam is een UUID, nooit de originele bestandsnaam of een naam van een student.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand brand-footer" href="./index.html">
+                    <span class="brand-mark" aria-hidden="true">PV+</span>
+                    <span class="brand-name">PosterVoter</span>
+                </a>
+                <p>Voor studenten van het Koning Willem I College.</p>
+                <p class="footer-note">Studentenproject. Niet het officiele communicatiekanaal van de school.</p>
+            </div>
+            <nav aria-label="Voetnavigatie">
+                <a href="./index.html">Home</a>
+                <a href="./veghel.html">Veghel</a>
+                <a href="./den-bosch.html">Den Bosch</a>
+                <a href="./uploaden.html">Uploaden</a>
+                <a href="./privacy.html">Privacy</a>
+            </nav>
+            <div class="footer-meta">
+                <p>Gemaakt met HTML, CSS, JavaScript, JSON, Cloudflare Workers en de GitHub API.</p>
+                <p>&copy; <span data-current-year>2026</span> PosterVoter.</p>
+            </div>
+        </div>
+    </footer>
+    <div data-toast-region class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="./assets/js/app.js"></script>
+    <script type="module" src="./assets/js/pages/privacy.js"></script>
+</body>
+</html>

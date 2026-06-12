@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PosterVoter: bekijk, upload en stem op posters van studenten van het Koning Willem I College.">
+    <title>PosterVoter | Jouw poster. Jouw stem.</title>
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    <link rel="stylesheet" href="./assets/css/pages.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body data-page="home">
+    <a class="skip-link" href="#inhoud">Naar inhoud</a>
+    <header class="site-header" data-site-header>
+        <nav class="nav container" aria-label="Hoofdnavigatie">
+            <a class="brand" href="./index.html" aria-label="PosterVoter home">
+                <span class="brand-mark" aria-hidden="true">PV+</span>
+                <span class="brand-name">PosterVoter</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="nav-toggle-lines" aria-hidden="true"></span>
+                <span class="sr-only">Menu openen</span>
+            </button>
+            <ul class="nav-list" id="primary-navigation" data-nav-list>
+                <li><a href="./index.html" data-nav-link="home">Home</a></li>
+                <li><a href="./veghel.html" data-nav-link="veghel">Veghel</a></li>
+                <li><a href="./den-bosch.html" data-nav-link="den-bosch">Den Bosch</a></li>
+                <li><a class="nav-cta" href="./uploaden.html" data-nav-link="uploaden">Uploaden</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inhoud">
+        <section class="hero hero-home">
+            <div class="hero-pattern" aria-hidden="true"></div>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Voor studenten van het Koning Willem I College</p>
+                    <h1>Jouw poster. Jouw stem. Jouw locatie.</h1>
+                    <p class="hero-text">Ontdek de creatieve posters van studenten, stem op jouw favoriet of deel jouw eigen ontwerp.</p>
+                    <div class="button-row">
+                        <a class="button button-primary" href="./veghel.html">Bekijk posters</a>
+                        <a class="button button-secondary" href="./uploaden.html">Upload jouw poster</a>
+                    </div>
+                </div>
+                <div class="hero-board" aria-label="PosterVoter voorbeeldranglijst">
+                    <div class="hero-ticket hero-ticket-main">
+                        <span class="rank-pill">#1</span>
+                        <span class="ticket-lines" aria-hidden="true"></span>
+                        <strong>+1 stemmen</strong>
+                    </div>
+                    <div class="hero-ticket hero-ticket-small">
+                        <span class="rank-pill">PV</span>
+                        <strong>Veghel</strong>
+                    </div>
+                    <div class="hero-ticket hero-ticket-wide">
+                        <span class="rank-pill">+</span>
+                        <strong>Den Bosch</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Locaties</p>
+                    <h2>Kies jouw campus</h2>
+                </div>
+                <div class="location-cards">
+                    <article class="location-card">
+                        <div class="card-kicker">Locatie</div>
+                        <h3>Veghel</h3>
+                        <p>Bekijk posters die zijn gemaakt voor studenten en projecten in Veghel.</p>
+                        <dl class="metric-list">
+                            <div>
+                                <dt>Posters</dt>
+                                <dd data-stat="veghel-posters">0</dd>
+                            </div>
+                            <div>
+                                <dt>Stemmen</dt>
+                                <dd data-stat="veghel-votes">0</dd>
+                            </div>
+                        </dl>
+                        <a class="button button-outline" href="./veghel.html">Bekijk Veghel</a>
+                    </article>
+                    <article class="location-card location-card-accent">
+                        <div class="card-kicker">Locatie</div>
+                        <h3>Den Bosch</h3>
+                        <p>Ontdek de ontwerpen voor Den Bosch en geef jouw favoriete poster een +1.</p>
+                        <dl class="metric-list">
+                            <div>
+                                <dt>Posters</dt>
+                                <dd data-stat="denbosch-posters">0</dd>
+                            </div>
+                            <div>
+                                <dt>Stemmen</dt>
+                                <dd data-stat="denbosch-votes">0</dd>
+                            </div>
+                        </dl>
+                        <a class="button button-outline" href="./den-bosch.html">Bekijk Den Bosch</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-quiet">
+            <div class="container steps-layout">
+                <div class="section-heading">
+                    <p class="eyebrow">Hoe werkt het?</p>
+                    <h2>Stemmen in drie stappen</h2>
+                </div>
+                <ol class="steps">
+                    <li>
+                        <span>1</span>
+                        <strong>Kies jouw locatie.</strong>
+                        <p>Open Veghel of Den Bosch en bekijk de actuele ranglijst.</p>
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <strong>Geef een +1.</strong>
+                        <p>Gebruik alleen je voornaam of een alias wanneer je stemt.</p>
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <strong>Upload jouw ontwerp.</strong>
+                        <p>Lever een poster aan via de bestandsknop of drag-and-drop.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-heading split-heading">
+                    <div>
+                        <p class="eyebrow">Live ranglijst</p>
+                        <h2>Populairste posters</h2>
+                    </div>
+                    <a class="text-link" href="./veghel.html">Alle posters bekijken</a>
+                </div>
+                <div class="top-posters" data-top-posters aria-live="polite">
+                    <div class="empty-state">
+                        <img src="./assets/images/placeholders/poster-empty.svg" alt="" aria-hidden="true">
+                        <h3>Nog geen posters</h3>
+                        <p>De eerste uploads verschijnen hier automatisch bovenaan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-stats">
+            <div class="container stats-grid" aria-live="polite">
+                <article class="stat-card">
+                    <span>Totaal posters</span>
+                    <strong data-stat="total-posters">0</strong>
+                </article>
+                <article class="stat-card">
+                    <span>Totaal stemmen</span>
+                    <strong data-stat="total-votes">0</strong>
+                </article>
+                <article class="stat-card">
+                    <span>Posters in Veghel</span>
+                    <strong data-stat="veghel-posters">0</strong>
+                </article>
+                <article class="stat-card">
+                    <span>Posters in Den Bosch</span>
+                    <strong data-stat="denbosch-posters">0</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="cta-band">
+                    <div>
+                        <p class="eyebrow">Meedoen</p>
+                        <h2>Laat jouw poster meedraaien in de ranglijst.</h2>
+                    </div>
+                    <a class="button button-primary" href="./uploaden.html">Upload jouw poster</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand brand-footer" href="./index.html">
+                    <span class="brand-mark" aria-hidden="true">PV+</span>
+                    <span class="brand-name">PosterVoter</span>
+                </a>
+                <p>Voor studenten van het Koning Willem I College.</p>
+                <p class="footer-note">Studentenproject. Niet het officiele communicatiekanaal van de school.</p>
+            </div>
+            <nav aria-label="Voetnavigatie">
+                <a href="./index.html">Home</a>
+                <a href="./veghel.html">Veghel</a>
+                <a href="./den-bosch.html">Den Bosch</a>
+                <a href="./uploaden.html">Uploaden</a>
+                <a href="./privacy.html">Privacy</a>
+            </nav>
+            <div class="footer-meta">
+                <p>Gemaakt met HTML, CSS, JavaScript, JSON, Cloudflare Workers en de GitHub API.</p>
+                <p>&copy; <span data-current-year>2026</span> PosterVoter.</p>
+            </div>
+        </div>
+    </footer>
+    <div data-toast-region class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script type="module" src="./assets/js/app.js"></script>
+    <script type="module" src="./assets/js/pages/home.js"></script>
+</body>
+</html>
