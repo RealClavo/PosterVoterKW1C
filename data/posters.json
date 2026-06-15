@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-15T11:21:57.577Z",
+  "updatedAt": "2026-06-15T11:22:26.999Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -204,7 +204,14 @@
       "imagePath": "assets/uploads/9c478c23-97e6-457c-bc56-09003698b990.webp",
       "createdAt": "2026-06-12T13:08:30.510Z",
       "isVisible": true,
-      "votes": []
+      "votes": [
+        {
+          "id": "16228f74-b69a-4a9c-88dd-e6847d53e518",
+          "voterName": "RVM",
+          "voterHash": "974bdbb937122cb9ccd520e78a3ccda78ff347715bc772d99ea82a83eaa43e47",
+          "createdAt": "2026-06-15T11:22:26.999Z"
+        }
+      ]
     },
     {
       "id": "ad6f77e4-d9d9-4c83-a575-459cd6da9a3a",
