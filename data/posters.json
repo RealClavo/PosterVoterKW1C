@@ -237,13 +237,203 @@
       "isVisible": true,
       "votes": []
     },
+     {
+      "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
+      "title": "Binary Mona Lisa",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/f5e128c3-cded-464c-b70f-3f1d3ce18282.webp",
+      "createdAt": "2026-06-12T10:25:32.889Z",
+      "isVisible": true,
+      "votes": []
+    },
     {
-      "id": "fa01436e-558c-4e55-859f-57d214f03342",
+      "id": "d5614215-b241-4b91-8d07-c4d09df57e7c",
       "title": "Van Gogh Classroom",
       "creatorName": "Justus",
       "location": "den-bosch",
-      "imagePath": "assets/uploads/fa01436e-558c-4e55-859f-57d214f03342.webp",
-      "createdAt": "2026-06-15T06:44:46.401Z",
+      "imagePath": "assets/uploads/d5614215-b241-4b91-8d07-c4d09df57e7c.webp",
+      "createdAt": "2026-06-12T10:27:59.997Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "4a5e5469-30a0-475f-863a-62648426aaa4",
+      "title": "Alpaca",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/4a5e5469-30a0-475f-863a-62648426aaa4.webp",
+      "createdAt": "2026-06-12T10:28:35.712Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "b09309d2-33fb-4811-99dc-34d81a0d8547",
+      "title": "ctrl alt create",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/b09309d2-33fb-4811-99dc-34d81a0d8547.webp",
+      "createdAt": "2026-06-12T10:29:27.268Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "ba2bd0cf-8ef4-41a3-8470-05a14b357efc",
+      "title": "Future is computing",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/ba2bd0cf-8ef4-41a3-8470-05a14b357efc.webp",
+      "createdAt": "2026-06-12T10:30:18.019Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "c043e853-f93c-4f15-9f45-08e11f14d004",
+      "title": "Rembrandt",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/c043e853-f93c-4f15-9f45-08e11f14d004.webp",
+      "createdAt": "2026-06-12T10:31:39.818Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "fd4fa97a-a81d-4f8d-a7b5-04bfa55f41e2",
+      "title": "The Creation",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/fd4fa97a-a81d-4f8d-a7b5-04bfa55f41e2.webp",
+      "createdAt": "2026-06-12T11:27:00.210Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "d6ddf5e5-c9ac-44b7-8664-4cccb47ea042",
+      "title": "Blueprint",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/d6ddf5e5-c9ac-44b7-8664-4cccb47ea042.webp",
+      "createdAt": "2026-06-12T11:27:29.584Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "e47feceb-044b-4659-95b3-46cbef2e4daf",
+      "title": "Bauhaus",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/e47feceb-044b-4659-95b3-46cbef2e4daf.webp",
+      "createdAt": "2026-06-12T11:27:57.385Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "cdc7278d-b6c5-44f8-998e-a55491d60627",
+      "title": "PopArt",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/cdc7278d-b6c5-44f8-998e-a55491d60627.webp",
+      "createdAt": "2026-06-12T12:16:51.484Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "998c065d-b514-4843-b424-9d70e0268f23",
+      "title": "Scream",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/998c065d-b514-4843-b424-9d70e0268f23.webp",
+      "createdAt": "2026-06-12T12:19:48.816Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "21961df5-cc68-4d05-a7c4-50cb9f1e61ba",
+      "title": "Comrad",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/21961df5-cc68-4d05-a7c4-50cb9f1e61ba.webp",
+      "createdAt": "2026-06-12T12:27:55.832Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "46e3e153-419e-4ad3-84b7-4df35b0df363",
+      "title": "Dali",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/46e3e153-419e-4ad3-84b7-4df35b0df363.webp",
+      "createdAt": "2026-06-12T13:04:21.782Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "97b9a3a3-86d0-4ec2-9251-81f41d973b57",
+      "title": "Japan",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/97b9a3a3-86d0-4ec2-9251-81f41d973b57.webp",
+      "createdAt": "2026-06-12T13:05:18.374Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "ef57b40e-40a3-4722-ae88-3a8c69a3a110",
+      "title": "Egypte",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/ef57b40e-40a3-4722-ae88-3a8c69a3a110.webp",
+      "createdAt": "2026-06-12T13:06:41.147Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "06ef77e1-c47d-4c6c-b2bd-9287a68a7da0",
+      "title": "Devland",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/06ef77e1-c47d-4c6c-b2bd-9287a68a7da0.webp",
+      "createdAt": "2026-06-12T13:07:10.289Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "9c478c23-97e6-457c-bc56-09003698b990",
+      "title": "Potion Book",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/9c478c23-97e6-457c-bc56-09003698b990.webp",
+      "createdAt": "2026-06-12T13:08:30.510Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "ad6f77e4-d9d9-4c83-a575-459cd6da9a3a",
+      "title": "Avondmaal",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/ad6f77e4-d9d9-4c83-a575-459cd6da9a3a.webp",
+      "createdAt": "2026-06-12T13:09:13.995Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "a44161aa-da70-44a0-90f9-ccc65cfbd48f",
+      "title": "Focus",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/a44161aa-da70-44a0-90f9-ccc65cfbd48f.webp",
+      "createdAt": "2026-06-12T13:18:59.631Z",
+      "isVisible": true,
+      "votes": []
+    },
+    {
+      "id": "86bd67b9-d59f-4fd9-9f97-23a60b695d01",
+      "title": "Bosch",
+      "creatorName": "Justus",
+      "location": "den-bosch",
+      "imagePath": "assets/uploads/86bd67b9-d59f-4fd9-9f97-23a60b695d01.webp",
+      "createdAt": "2026-06-12T13:19:39.781Z",
       "isVisible": true,
       "votes": []
     }
