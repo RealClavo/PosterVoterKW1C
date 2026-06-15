@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-15T11:22:26.999Z",
+  "updatedAt": "2026-06-15T11:44:39.018Z",
   "posters": [
     {
       "id": "f5e128c3-cded-464c-b70f-3f1d3ce18282",
@@ -302,6 +302,12 @@
           "voterName": "Angela",
           "voterHash": "14f5991cf6d983092c8d87ee0972a8914156af0892b6a86cd0604a1e9d6a4714",
           "createdAt": "2026-06-15T09:14:24.689Z"
+        },
+        {
+          "id": "19d8872b-7fe3-4f10-b1fe-2853eacec690",
+          "voterName": "Martijn",
+          "voterHash": "d58af81183d0ecc665376ef91569dc7a5e97654096dd68642cf65f7e4327710f",
+          "createdAt": "2026-06-15T11:44:39.018Z"
         }
       ]
     },
