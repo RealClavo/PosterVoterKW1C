@@ -154,16 +154,6 @@
       ]
     },
     {
-      "id": "a9193549-b37c-487f-bc6c-eb6a163c4f9c",
-      "title": "Dali",
-      "creatorName": "Justus",
-      "location": "veghel",
-      "imagePath": "assets/uploads/a9193549-b37c-487f-bc6c-eb6a163c4f9c.webp",
-      "createdAt": "2026-06-12T13:04:37.214Z",
-      "isVisible": true,
-      "votes": []
-    },
-    {
       "id": "97b9a3a3-86d0-4ec2-9251-81f41d973b57",
       "title": "Japan",
       "creatorName": "Justus",
@@ -207,16 +197,6 @@
       "location": "veghel",
       "imagePath": "assets/uploads/9c478c23-97e6-457c-bc56-09003698b990.webp",
       "createdAt": "2026-06-12T13:08:30.510Z",
-      "isVisible": true,
-      "votes": []
-    },
-    {
-      "id": "82bef5a4-e5f4-4b33-b56a-1e3c820b8866",
-      "title": "Avondmaal",
-      "creatorName": "Justus",
-      "location": "veghel",
-      "imagePath": "assets/uploads/82bef5a4-e5f4-4b33-b56a-1e3c820b8866.webp",
-      "createdAt": "2026-06-12T13:08:59.586Z",
       "isVisible": true,
       "votes": []
     },
